@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="custom.css" />
+  <script src="function.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="/Logos/Bl-favicon.png" />
+  <title>Mangashin</title>
+</head>
+
+<body>
+  <!--Nav portion of the page-->
+
+  <header>
+    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <!--Dropdown Menu-->
+
+        <div class="dropdown">
+          <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="
+                background-color: #2b3035;
+                border: none;
+                font-size: 2rem;
+                padding: 0;
+              ">
+            <i class="fa-solid fa-bars dropbtn"></i>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">HOME</a></li>
+            <li><a class="dropdown-item" href="#">LATEST</a></li>
+            <li><a class="dropdown-item" href="#">TOP</a></li>
+            <li><a class="dropdown-item" href="#">SEASONAL</a></li>
+            <li><a class="dropdown-item" href="#">SUBBED</a></li>
+            <li><a class="dropdown-item" href="#">DUBBED</a></li>
+            <li><a class="dropdown-item" href="#">MOVIES</a></li>
+            <li><a class="dropdown-item" href="#">ALL TIME FAVOURITE</a></li>
+          </ul>
+        </div>
+        <!--Logo-->
+        <a class="navbar-brand" href="#">
+          <img src="/Logo/mangashin.png" alt="Logo" width="100%" height="40"
+            class="d-inline-block align-text-top" /></a>
+        <!--Search-->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 " id="search"  type="search" placeholder="Search"
+            aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+
+        <!--Extras-->
+
+        <button type="button" class="btn btn-success">Login/Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main content of the page-->
+
+  <main class="main_body">
+    <!--Slide Show-->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+          aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+          aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="">
+          <img src="/Source_images/slide.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>My Happy Marriage</h5>
+            <p>Watch My Happy Marriage Free at Mangashin.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="">
+          <img src="/Source_images/slide1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Bleach Final Season Part 2</h5>
+            <p>Watch Bleach Final Season Part 2 Free at Mangashin.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="">
+          <img src="/Source_images/slide2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>One Piece</h5>
+            <p>Watch One Piece Free at Mangashin.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="">
+          <img src="/Source_images/slide3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Black Clover</h5>
+            <p>Watch Black Clover Free at Mangashin.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="">
+          <img src="/Source_images/slide4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Attack on Titan</h5>
+            <p>Watch Attack on Titan Free at Mangashin.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="">
+          <img src="/Source_images/slide5.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Jujutsu Kaisen</h5>
+            <p>Watch Jujutsu Kaisen Free at Mangashin.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="">
+          <img src="/Source_images/slide6.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Solo Leveling</h5>
+            <p>Watch Solo Leveling Free at Mangashin.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <nav class="navbar nav-2" style="background-color: #2b3035">
+      <div class="container-fluid" id="msg">
+        <a class="navbar-brand" href="#">
+          <h3 class="msg" style="color: white">
+            Watch All Your Favourite Anime On Mangashin
+          </h3>
+        </a>
+      </div>
+    </nav>
+
+    <!--Cards-->
+
+    <div class="cards">
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">My Happy Marriage</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://aniwatch.to/my-happy-marriage-18490?ref=search" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Bleach</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://aniwatch.to/bleach-thousandyear-blood-war-the-separation-18420?ref=search"
+            class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">One Piece</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://aniwatch.to/one-piece-100?ref=search" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide3.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Black Clover</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://aniwatch.to/black-clover-2404?ref=search" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide4.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Attack on Titan</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://aniwatch.to/attack-on-titan-112?ref=search" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide5.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Jujutsu Kaisen</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://aniwatch.to/jujutsu-kaisen-tv-534?ref=search" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide6.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Solo Leveling</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="https://www.youtube.com/watch?v=9vIxi5XkQ8Y&ab_channel=CrunchyrollCollection"
+            class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide3.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide4.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+      <div class="card" style="width: 26rem">
+        <img src="/Source_images/slide5.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Watch Latest Animes only on Mangashin for free.
+          </p>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--Other details of the page-->
+
+  <footer></footer>
+
+  <!--Bootstrap Javascrit link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

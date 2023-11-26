@@ -1,0 +1,44 @@
+/***{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: border-box;
+}**/
+
+ /*Navbar*/
+
+ .search{
+  align-items: right;
+ }
+  
+ 
+/**SEARCH**/
+.d-flex {
+    font-size: 100rem;
+}
+
+#msg{
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #4A535B;
+    padding: 1rem;   
+}
+#search {
+    width: 35rem;
+}
+@media screen and (max-width: 670px) {
+   
+    #search {
+        width: auto;
+    }
+    .msg{
+        
+        font-size: 1rem;
+        
+    }
+
+  }
